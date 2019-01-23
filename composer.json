@@ -24,6 +24,12 @@
         "sort-packages": true
     },
     "prefer-stable": true,
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/krakjoe/environment"
+        }
+    ],
     "require": {
         "php": "^7.1",
         "ext-dom": "*",
@@ -32,7 +38,7 @@
         "phpunit/php-token-stream": "^3.0.1",
         "phpunit/php-text-template": "^1.2.1",
         "sebastian/code-unit-reverse-lookup": "^1.0.1",
-        "sebastian/environment": "^4.0",
+        "sebastian/environment": "dev-pcov as 4.0",
         "sebastian/version": "^2.0.1",
         "theseer/tokenizer": "^1.1"
     },
